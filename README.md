@@ -1,18 +1,65 @@
-# React + Vite
+# 🎬 Movie List App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React-based movie list application** built as part of a learning project.
 
-Currently, two official plugins are available:
+You can:
+- Search for movies
+- View basic movie details
+- Add movies to your favorites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app is intentionally minimal and focused on learning **React fundamentals and API usage**.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
 
-Note: This will impact Vite dev & build performances.
+- 🔍 Search movies by name  
+- ⭐ Add / remove movies from favorites  
+- 📄 View basic movie info:
+  - Movie name
+  - Release year
+  - Movie poster / URL
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Data Source
+
+This project uses **The Movie Database (TMDB) API**.
+
+👉 https://www.themoviedb.org/
+
+All movie data (titles, posters, release years) comes from TMDB.
+
+---
+
+## 🎓 Credits
+
+This project is based on a **React course/tutorial by Tech With Tim**.
+
+- YouTube: https://www.youtube.com/@TechWithTim  
+- Course focus: React fundamentals, components, state, and API fetching
+
+The core idea and learning structure come from the course.  
+The implementation may differ as part of hands-on practice.
+
+---
+
+## ⚛️ Tech Stack
+
+- Frontend: **React**
+- Language: JavaScript
+- API: TMDB API
+- Styling: Minimal (not UI-focused)
+
+---
+
+## 🔑 API Key Setup
+
+To run this project, you need a TMDB API key.
+
+1. Create an account at https://www.themoviedb.org/
+2. Generate an API key
+3. Add the key to your project (example):
+
+```js
+const API_KEY = "YOUR_TMDB_API_KEY";
