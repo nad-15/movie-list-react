@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/movie-list-react/sw.js', { scope: '/movie-list-react/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/movie-list-react/frontend/sw.js', { scope: '/movie-list-react/frontend/' })})}
